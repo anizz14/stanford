@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  EmojiMemoryGameView.swift
 //  stanford
 //
 //  Created by Anish Shrestha on 02/06/2024.
@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct EmojiMemoryGameView: View {
+    
     @State var cardCount = 4
     let emojis = ["🇳🇵","🇳🇿","🇺🇸","🇬🇧","🇹🇭","🇧🇪","🇨🇳","🇮🇳"]
     var body: some View {
@@ -89,5 +90,5 @@ struct CardView: View {
 }
 
 #Preview {
-    ContentView()
+    EmojiMemoryGameView()
 }
